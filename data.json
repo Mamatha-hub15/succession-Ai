@@ -1,0 +1,151 @@
+{
+  "adminDashboard": {
+    "stats": {
+      "totalEmployees": { "value": "1,248", "trend": "+ 12 this month", "positive": true },
+      "criticalRoles": { "value": "42", "action": "View all" },
+      "highRiskRoles": { "value": "8", "action": "View details", "alert": true },
+      "readySuccessors": { "value": "67%", "trend": "+ 8% this month", "positive": true },
+      "attritionRisk": { "value": "15%", "action": "View report" }
+    },
+    "hierarchy": {
+      "role": "CEO",
+      "name": "Arun Mehta",
+      "readiness": "95%",
+      "directReports": [
+        {
+          "role": "CTO",
+          "name": "Rohan Singh",
+          "readiness": "85%",
+          "topSuccessors": [
+            {"image": "avatar1", "name": "Successor 1"},
+            {"image": "avatar2", "name": "Successor 2"},
+            {"image": "avatar3", "name": "Successor 3"},
+            {"image": "avatar4", "name": "Successor 4"}
+          ],
+          "extraSuccessors": 3,
+          "status": "Ready"
+        },
+        {
+          "role": "Head of Product",
+          "name": "Neha Kapoor",
+          "readiness": "78%",
+          "topSuccessors": [
+            {"image": "avatar3", "name": "Successor 3"},
+            {"image": "avatar4", "name": "Successor 4"},
+            {"image": "avatar5", "name": "Successor 5"},
+            {"image": "avatar6", "name": "Successor 6"}
+          ],
+          "extraSuccessors": 2,
+          "status": "Needs Development"
+        },
+        {
+          "role": "HR Director",
+          "name": "Priya Sharma",
+          "readiness": "88%",
+          "topSuccessors": [
+            {"image": "avatar5", "name": "Successor 5"},
+            {"image": "avatar6", "name": "Successor 6"},
+            {"image": "avatar7", "name": "Successor 7"},
+            {"image": "avatar8", "name": "Successor 8"}
+          ],
+          "extraSuccessors": 4,
+          "status": "Ready"
+        },
+        {
+          "role": "Finance Head",
+          "name": "Vikram Das",
+          "readiness": "72%",
+          "topSuccessors": [
+            {"image": "avatar7", "name": "Successor 7"},
+            {"image": "avatar8", "name": "Successor 8"},
+            {"image": "avatar9", "name": "Successor 9"},
+            {"image": "avatar10", "name": "Successor 10"}
+          ],
+          "extraSuccessors": 2,
+          "status": "High Risk"
+        }
+      ]
+    }
+  },
+  "managerDashboard": {
+    "teamOverview": {
+      "teamMembers": 18,
+      "readySuccessors": 7,
+      "skillGaps": 5,
+      "atRisk": 2
+    },
+    "teamReadiness": {
+      "average": 78,
+      "ready": 56,
+      "needsDevelopment": 32,
+      "highRisk": 12
+    },
+    "topSuccessors": [
+      { "name": "Anjali Verma", "role": "Product Analyst", "readiness": "85%" },
+      { "name": "Karan Malhotra", "role": "Senior Associate", "readiness": "72%" },
+      { "name": "Sneha Iyer", "role": "Associate", "readiness": "65%" }
+    ]
+  },
+  "employeeDashboard": {
+    "user": {
+      "name": "Gagan A S",
+      "role": "Senior Business Analyst",
+      "overallReadiness": 82,
+      "status": "Highly Ready"
+    },
+    "strengths": [
+      "Analytical Thinking",
+      "Communication",
+      "Problem Solving",
+      "Leadership"
+    ],
+    "recommendedRoles": [
+      { "role": "Team Lead", "match": "85%" },
+      { "role": "Project Manager", "match": "78%" }
+    ],
+    "suggestedLearning": {
+      "course": "Advanced Leadership Program",
+      "provider": "Coursera",
+      "duration": "8 weeks"
+    },
+    "performance": {
+      "rating": "4.8/5",
+      "recentFeedback": "Excellent analytical skills shown in the Q3 report.",
+      "goalsCompleted": "12/15"
+    }
+  },
+  "events": [
+    {
+      "title": "Leadership Review Meeting",
+      "date": "16 May 2024",
+      "time": "10:00 AM",
+      "type": "meeting"
+    },
+    {
+      "title": "Succession Planning Workshop",
+      "date": "20 May 2024",
+      "time": "02:00 PM",
+      "type": "workshop"
+    },
+    {
+      "title": "AI Skills Assessment",
+      "date": "25 May 2024",
+      "time": "11:00 AM",
+      "type": "assessment"
+    }
+  ],
+  "insights": [
+    { "text": "2 critical roles have no ready successor", "severity": "high" },
+    { "text": "3 senior employees may leave in next 6 months", "severity": "medium" },
+    { "text": "Marketing Head role needs immediate attention", "severity": "high" }
+  ],
+  "highReadinessEmployees": [
+    { "name": "Arun Mehta", "role": "CEO", "readiness": 95, "department": "Executive" },
+    { "name": "Priya Sharma", "role": "HR Director", "readiness": 88, "department": "HR" },
+    { "name": "Rohan Singh", "role": "CTO", "readiness": 85, "department": "Engineering" },
+    { "name": "Anjali Verma", "role": "Product Analyst", "readiness": 85, "department": "Product" },
+    { "name": "Kavita Rao", "role": "Senior Developer", "readiness": 92, "department": "Engineering" },
+    { "name": "Siddharth Jain", "role": "Marketing Manager", "readiness": 87, "department": "Marketing" },
+    { "name": "Amit Patel", "role": "Sales Director", "readiness": 89, "department": "Sales" }
+  ]
+}
